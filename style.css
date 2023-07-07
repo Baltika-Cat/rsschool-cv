@@ -1,11 +1,107 @@
-.head {
-
+body {
+  background: #111;
+  color: #fff;
+  font-size: large;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  line-height: 1.6em;
 }
 
-.body {
-
+header {
+  align-items: center;
+  text-align: center;
 }
 
-.p {
+footer {
+  display: flex;
+  justify-content: space-between;
+}
 
+div {
+  width: 99%; max-width: 1200px; margin: auto;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: "Andale Mono", monospace;
+  color: white;
+  background: #111;
+}
+
+h2 {
+  color: #888;
+}
+
+h3 {
+  color: #888;
+}
+
+a {
+  color: white;
+  background: inherit;
+  transition: ease-out 1s;
+}
+
+a:hover {
+  color: black;
+  background: white;
+  transition: ease-out 0.5s;
+}
+
+
+img {
+  border-radius: 90%;
+}
+
+.name-and-business:before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: red;
+  width: 300px;
+  margin: 10px auto 0px;
+  transition: 1s;
+}
+
+.name-and-business:hover:before {
+  width: 500px;
+  transition: ease-out 1s;
+}
+
+.name-and-business:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: red;
+  width: 300px;
+  margin: 0px auto 10px;
+  transition: 1s;
+}
+
+.name-and-business:hover:after {
+  width: 500px;
+  transition: ease-out 1s;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sectionOne {
+  width: 40%;
+  text-align: justify;
+}
+
+.sectionTwo {
+  width: 60%;
+  text-align: justify;
+}
+
+.contacts, .skills, .code-education, .projects, .language, .about-me, .code-examples {
+  border: 0px;
+}
+
+
+#kind-of-business {
+  font-size: 140%;
 }
