@@ -9,8 +9,10 @@
   <body>
     <header class="header">
       <img src="https://github.com/Baltika-Cat/rsschool-cv/blob/gh-pages/photo_for_cv.jpg?raw=true" alt="Brashkin Dmitry's photo">
-      <h1>Dmitry Brashkin</h1>
-      <p id="kind-of-business">JavaScript student</p>
+      <div class="name-and-business">
+        <h1>Dmitry Brashkin</h1>
+        <p id="kind-of-business">JavaScript student</p>
+      </div>  
     </header>
     <nav class="nav">
       <h3>Page navigation</h3>
@@ -43,7 +45,7 @@
           </ul>
         </div>
         <h2 id="code-education">Code education</h2>
-        <div class="code">
+        <div class="code-education">
           <ul>
             <li>I tried to learn Java on JavaRush, but it didn't work out for me;</li>
             <li>I learned HTML and CSS with a book.</li>
@@ -73,20 +75,23 @@
           Information about me looks like child letter, but it is not because I'm stupid and because my English is not good.<br>
           Married.</p>
         <h2 id="code-examples">Code examples</h2>
-        <div class="code-example">
-          Java:
-          <p class="lineOne">import java.util.ArrayList;<br>
+        <div class="code-examples">
+          Java: <br>
+          <br>
+          import java.util.ArrayList;<br>
           import java.util.Collections;<br>
-          public class ItSAMeetingWithForEach {</p>
-          <p class="lineTwo">public static void main(String[] args) {</p>
-          <p class="lineThree">var numbers = new ArrayList&lt;Integer&gt;();<br>
-          Collections.addAll(numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0);<br>
-          print(numbers);</p>
-          <p class="lineTwo">}<br>
-          public static void print(ArrayList&lt;Integer&gt; numbers) {</p>
-          <p class="lineThree">numbers.forEach( (i) &ndash;&gt; System.out.println(i));</p>
-          <p class="lineTwo">}</p>
-          <p class="lineOne">}</p>
+          <br>
+          public class ItSAMeetingWithForEach {<br>
+          &emsp;public static void main(String[] args) {<br>
+          &emsp;&emsp;var numbers = new ArrayList&lt;Integer&gt;();<br>
+          &emsp;&emsp;Collections.addAll(numbers, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0);<br>
+          &emsp;&emsp;print(numbers);<br>
+          &emsp;}<br>
+          <br>
+          &emsp;public static void print(ArrayList&lt;Integer&gt; numbers) {<br>
+          &emsp;&emsp;numbers.forEach( (i) &ndash;&gt; System.out.println(i));<br>
+          &emsp;}<br>
+          }
         </div>
       </div>
     </main>
