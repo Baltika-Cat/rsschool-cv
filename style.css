@@ -28,7 +28,7 @@ footer {
   justify-content: center;
   background: black;
   width: 100%;
-  margin-left:-1px;
+  margin-left: -8px;
 }
 footer p, svg {
   padding: 30px;
@@ -42,11 +42,11 @@ h1 {
 }
 
 h2 {
-  color: #888;
+  color: #777;
 }
 
 h3 {
-  color: #888;
+  color: #777;
 }
 
 a {
@@ -98,27 +98,24 @@ img {
 
 .main-container {
   display: flex;
-  width: 100%;
   justify-content: center;
-  justify-items: center;
-  text-align: center;
-  align-items: center;
+  margin: 20px auto;
 }
+
+
 
 .sectionOne {
   width: 30%;
   text-align: justify;
   border: 3px dotted gray;
+  padding: 20px 50px 20px 50px;
 }
 
 .sectionTwo {
-  width: 50%;
+  width: 30%;
   text-align: justify;
   border: 3px dotted gray;
-}
-
-.contacts, .skills, .code-education, .projects, .language, .about-me, .code-examples {
-  border: 0px;
+  padding: 20px 50px 20px 50px;
 }
 
 
@@ -135,11 +132,4 @@ img {
   border-right: 1px solid white;
   padding: 15px;
   font-size: 120%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-items: center;
 }
