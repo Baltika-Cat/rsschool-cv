@@ -1,8 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  justify-content: center;
+  width: 100%;
   background: #111;
   color: #fff;
   font-size: large;
@@ -26,13 +25,13 @@ nav {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background: black;
   width: 100%;
+  margin-left:-1px;
 }
-
-div {
-  width: 99%; max-width: 1200px; margin: auto;
+footer p, svg {
+  padding: 30px;
 }
 
 h1 {
@@ -99,17 +98,23 @@ img {
 
 .main-container {
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .sectionOne {
-  width: 40%;
+  width: 30%;
   text-align: justify;
+  border: 3px dotted gray;
 }
 
 .sectionTwo {
-  width: 60%;
+  width: 50%;
   text-align: justify;
+  border: 3px dotted gray;
 }
 
 .contacts, .skills, .code-education, .projects, .language, .about-me, .code-examples {
@@ -129,5 +134,12 @@ img {
   display: inline;
   border-right: 1px solid white;
   padding: 15px;
-  font-size: 120%
+  font-size: 120%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
 }
